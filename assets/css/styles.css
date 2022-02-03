@@ -333,6 +333,15 @@ img{
 }
 
 .home__img{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  justify-self: center;
+  margin-bottom: var(--mb-1);
+}
+
+.home__img:hover{
   width: 120px;
   height: 120px;
   border-radius: 50%;
