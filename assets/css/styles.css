@@ -378,6 +378,8 @@ img{
   display: inline;
 }
 
+
+
 .home__address{
   gap: 1rem;
 }
@@ -551,7 +553,10 @@ color: var(--title-color);
 
 
 /*========== REFERENCES ==========*/
-
+#references-toggle{
+  display: none;
+  visibility: hidden;
+}
 
 /*========== INTERESTS ==========*/
 
