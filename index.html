@@ -10,19 +10,19 @@
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive resume cv</title>
+        <title>SirWhiteHat</title>
     </head>
     <body>
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-              <a href="#" class="nav__logo">Smith</a>
+              <a href="#" class="nav__logo">Dr. Peaches</a>
 
               <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                   <li class="nav__item">
-                    <a href="#home" class="nav__link">
-                      <i class='bx bx-home'></i>Home
+                    <a href="#home" class="nav__link active-link">
+                      <i class='bx bx-home nav__icon'></i>Home
                     </a>
                   </li>
 
@@ -76,6 +76,31 @@
                 <div class="resume__left">
                     <!--========== HOME ==========-->
                     <section class="home" id="home">
+                      <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                          <img src="assets/img/perfil.jpg" alt="" class="home__img">
+
+                          <h1 class="home__title">Pech <b>Jacob</b></h1>
+                          <h3 class="home__profession">Innovator</h3>
+
+                          <!-- Button to download your CV sabed in the pdf folder. Available for mobile-->
+                          <div>
+                            <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Resume</a>
+                          </div>
+
+                          <div class="home__address bd-grid">
+                            <span class="home__information">
+                              <i class='bx bx-map home__icon'></i> Colorado Springs, CO | Remote
+                            </span>
+                            <span class="home__information">
+                              <i class='bx bx-envelope home__icon'></i> pechjacob@gmail.com
+                            </span>
+                            <span class="home__information">
+                              <i class='bx bx-phone home__icon'></i> 618-578-2777
+                            </span>
+                          </div>
+                        </div>
+                      </div>
 
                         <!-- Theme change button -->
 
@@ -86,17 +111,87 @@
 
                     <!--========== SOCIAL ==========-->
                     <section class="social section">
+                      <h2 class="section-title">SOCIAL</h2>
 
+                      <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/jacobpech/" target="_blank" class="social__link">
+                          <i class='bx bxl-linkedin-square social__icon'></i> @smithmat
+                        </a>
+
+                        <a href="https://www.facebook.com/pechjacob" target="_blank" class="social__link">
+                          <i class='bx bxl-facebook social__icon'></i> @smithmat
+                        </a>
+
+                        <a href="https://www.instagram.com/pechjacob1/" target="_blank" class="social__link">
+                          <i class='bx bxl-instagram social__icon'></i> @smithmat
+                        </a>
+                      </div>
                     </section>
 
                     <!--========== PROFILE ==========-->
                     <section class="profile section" id="profile">
+                      <h2 class="section-title">Profile</h2>
 
+                      <p class="profile__description">Profile Description Goes Here</p>
                     </section>
 
                     <!--========== EDUCATION ==========-->
                     <section class="education section" id="education">
+                      <h2 class="section-title">Education</h2>
 
+                      <div class="education__container bd-grid">
+                        <div class="education_content">
+                          <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                          </div>
+
+                          <div class="education__data bd-grid">
+                            <h3 class="education__title">Doctor Of Philosophy | Security</h3>
+                            <span class="education__studies">University Of Colorado, Colorado Springs</span>
+                            <span class="education__year">2022 - 2026</span>
+                          </div>
+                        </div>
+
+                        <div class="education_content">
+                          <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                          </div>
+
+                          <div class="education__data bd-grid">
+                            <h3 class="education__title">Master Of Science, Cybersecurity & Information Assurance</h3>
+                            <span class="education__studies">Western Governor's University</span>
+                            <span class="education__year">2020 - 2022</span>
+                          </div>
+                        </div>
+
+                        <div class="education_content">
+                          <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                          </div>
+
+                          <div class="education__data bd-grid">
+                            <h3 class="education__title">Bachelor Of Science | Information Technology</h3>
+                            <span class="education__studies">Western Governor's University</span>
+                            <span class="education__year">2018 - 2020</span>
+                          </div>
+                        </div>
+
+                        <div class="education_content">
+                          <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                          </div>
+
+                          <div class="education__data bd-grid">
+                            <h3 class="education__title">Associate Of Science | Information Systems</h3>
+                            <span class="education__studies">Community College Of The Airforce</span>
+                            <span class="education__year">2016 - 2018</span>
+                          </div>
+                        </div>
+                      </div>
                     </section>
 
 
