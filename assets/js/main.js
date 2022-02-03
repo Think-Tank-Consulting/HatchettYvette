@@ -1,3 +1,26 @@
+/*==================== Copy Animation ====================*/
+const text = document.querySelector(".copy-text");
+const popup = document.querySelector(".popup");
+
+text.addEventListener("click", ()=>{
+  popup.classList.add("active");
+  copyToClipboard();
+});
+
+popup,addEventListener("animationEnd", ()=>{
+  popup.classList.remove("active");
+});
+
+function copyToClipboard(){
+  const textArea = document.createElement("textArea");
+  textArea.setAttribute("readonly", "");
+  textArea.style.position= "absolute";
+  textArea.value = text.innerText;
+  document.body.appendChild(textArea);
+  textArea.select();
+  document.execCommand("copy");
+}
+
 /*==================== SHOW MENU ====================*/
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),

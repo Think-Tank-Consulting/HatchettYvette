@@ -380,6 +380,52 @@ img{
   background-color: var(--text-color);
   color: var(--container-color);
 }
+
+.copy-text{
+
+}
+
+.popup{
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  transform: translate(50%);
+  opacity: 0;
+  pointer-events: none;
+  font-weight: bold;
+}
+
+.popup.active{
+  animation: popup 1s ease-in-out forwards;
+}
+
+@keyframes popup{
+  0%{
+    opacity: .6;
+    pointer-events: none;
+    transform: translate(50%);
+  }
+  25%{
+    opacity: 95%;
+    pointer-events: auto;
+    transform: translate(40%);
+  }
+  50%{
+    opacity: 100%;
+    pointer-events: auto;
+    transform: translate(30%);
+  }
+  75%{
+    opacity: 95%;
+    pointer-events: auto;
+    transform: translate(40%);
+  }
+  100%{
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(50%);
+  }
+}
 /*========== SOCIAL ==========*/
 .social__container{
   grid-template-columns: max-content;
