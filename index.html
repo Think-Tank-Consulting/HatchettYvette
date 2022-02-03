@@ -6,13 +6,13 @@
 
         <!--========== BOX ICONS ==========-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
-
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
         <title>SirWhiteHat</title>
     </head>
-    <body>
+    <body class="scale-cv">
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
@@ -101,12 +101,11 @@
                           </div>
                         </div>
                       </div>
-
                         <!-- Theme change button -->
-
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
 
                         <!-- Button to generate and download the pdf. Available for desktop. -->
-
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
                     </section>
 
                     <!--========== SOCIAL ==========-->
@@ -285,7 +284,9 @@
         </main>
 
         <!--========== SCROLL TOP ==========-->
-
+        <a href="#" class="scrolltop" id="scroll-top">
+          <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
 
         <!--========== HTML2PDF ==========-->
         <script src="assets/js/html2pdf.bundle.min.js"></script>
