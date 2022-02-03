@@ -400,8 +400,8 @@ img{
   font-size: 1.2rem;
   margin-right: .25rem;
 }
-/*========== PROFILE ==========*/
-.profile__description{
+/*========== ABOUT ==========*/
+.about__description{
   text-align: center;
 }
 
@@ -553,7 +553,7 @@ color: var(--title-color);
   }
 
   .section-title,
-  .profile__description{
+  .about__description{
     text-align: initial;
   }
 
