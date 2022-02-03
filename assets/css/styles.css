@@ -421,7 +421,7 @@ img{
   height: 16px;
   background-color: var(--text-color-light);
   border-radius: 50%;
-  margin-top: .5rem;
+  margin-top: .25rem;
 }
 
 .education__line{
