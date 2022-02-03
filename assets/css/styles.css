@@ -333,20 +333,26 @@ img{
 }
 
 .home__img{
-  position: absolute;
+  background-image: url("../img/Lion.jpg");
   width: 120px;
   height: 120px;
   border-radius: 50%;
   justify-self: center;
   margin-bottom: var(--mb-1);
+  background-size: contain;
 }
 
-.home__img:hover{
-  width: 120px;
-  height: 120px;
+.home__img:hover {
+  background-image: url("../img/Roar.jpg");
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   justify-self: center;
   margin-bottom: var(--mb-1);
+  background-size: cover;
+  border-color: Red;
+  box-shadow: 0 5px 15px Red;
+  cursor: not-allowed;
 }
 
 .home__title{
@@ -357,6 +363,19 @@ img{
 .home__profession{
   font-size: var(--normal-font-size);
   margin-bottom: var(--mb-1);
+}
+
+.home__profession-hidden{
+  display: none;
+}
+
+.home__profession:hover .home__profession{
+  display: none;
+  cursor: pointer;
+}
+
+.home__profession:hover .home__profession-hidden{
+  display: inline;
 }
 
 .home__address{
