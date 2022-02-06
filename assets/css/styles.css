@@ -95,7 +95,7 @@ body.scale-cv{
 
 
 /*========== Classes modified to reduce size and print on A4 sheet ==========*/
-.scale-cv .change-theme.
+.scale-cv .change-theme,
 .scale-cv .generate-pdf{
   display: none;
 }
@@ -178,6 +178,7 @@ body.scale-cv{
 .scale-cv .interests__container{
   column-gap: 2.5rem;
 }
+
 
 body{
   margin: 0 0 var(--header-height) 0;
