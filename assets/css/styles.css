@@ -592,7 +592,7 @@ color: var(--title-color);
 
 /*========== MEDIA QUERIES ==========*/
   /* For small devices, menu two columns */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
   .nav__list{
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem .5rem;
