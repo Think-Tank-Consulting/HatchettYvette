@@ -1,5 +1,5 @@
 # Pech, Jacob Live Current Resume 
-## [Watch it on youtube](https://pechjacob.github.io/Current-Resume/)
+## [Check out the LIVE Interactive Resume](https://pechjacob.github.io/Current-Resume/)
 ### Responsive Story Resume 
 Beautiful Responsive Interactive Resume 📄 using html, css and javascript. Light dark mode 🌗 and PDF export.
 
