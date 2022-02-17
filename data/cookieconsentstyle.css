@@ -1,0 +1,43 @@
+.consentButton i{
+  color: #fff;
+  font-size: 5vmin;
+  font-weight: 700;
+  position: absolute;
+  left: 5px;
+	top: 5px;
+	margin: 0;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+
+.consentButton i:hover{
+  color: #00ff03 ;
+  font-size: 6vmin;
+  font-weight: 700;
+  position: absolute;
+  left: 5px;
+	top: 5px;
+	margin: 0;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+
+/*.BUTTON{
+    font-weight: 600;
+		position: absolute;
+    text-transform: none;
+    background: #161515;
+    background: #ffeec0;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    color: #000000;
+    padding: 1em 1em;
+    cursor: pointer;
+    font-size: .8em;
+    transition: box-shadow .3s ease;
+}
+Alternate button option
+*/
