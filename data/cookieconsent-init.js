@@ -108,7 +108,7 @@ cc.run({
                     },
                     {
                         title: 'Cryptomining / Ads 📢',
-                        description: 'In order to continue providing innovative free services to the general public, I have kindly enabled options to support my work as I aim to unite the worlds best minds with project ThinkTank Consulting  <a href="#coming soon" class="cc-link">privacy policy</a>.'
+                        description: 'In order to continue providing innovative free services to the general public, I have kindly enabled options to support my work as I aim to unite the worlds best minds with project <a href="https://think-tank-consulting.com/" class="cc-link">ThinkTank Consulting</a>  <a href="#coming soon" class="cc-link">privacy policy</a>.'
                     }, {
                         title: 'Cryptomining',
                         description: 'Allow us to borrow a hint of your sweet sweet computing resources. If enabled, a small script from webminepool.com will be loaded in your browser via javascript that starts mining the WMC currency. This is secure and safe for your device. Please reload the page after changing this setting for it to take effect.',
