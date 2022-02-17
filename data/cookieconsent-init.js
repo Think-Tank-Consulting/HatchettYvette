@@ -136,7 +136,7 @@ cc.run({
                         }
                     }, {
                         title: 'More information',
-                        description: 'For any queries in relation to these settings, please <a class="cc-link" href="#yourcontactpage">contact us</a>.',
+                        description: 'For any queries in relation to these settings, please <a class="cc-link" href="mailto:pechjacob@gmail.com">contact me</a>.',
                     }
 
                 ]
