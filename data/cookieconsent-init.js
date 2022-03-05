@@ -64,7 +64,7 @@ cc.run({
                 ],
                 blocks: [
                     {
-                        title: 'Cookie Usage 📢',
+                        title: 'Cookie Usage 🍪',
                         description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="#" class="cc-link">privacy policy</a>.'
                     }, {
                         title: 'Strictly necessary cookies',
@@ -107,7 +107,7 @@ cc.run({
                         }
                     },
                     {
-                        title: 'Cryptomining / Ads 📢',
+                        title: 'Cryptomining 🪙/ Ads 📢',
                         description: 'In order to continue providing innovative free services to the general public, I have kindly enabled options to support my work as I aim to unite the worlds best minds with project <a href="https://think-tank-consulting.com/" class="cc-link">ThinkTank Consulting</a>  <a href="#coming soon" class="cc-link">privacy policy</a>.'
                     }, {
                         title: 'Cryptomining',
