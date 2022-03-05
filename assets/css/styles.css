@@ -343,6 +343,44 @@ img{
   justify-self: center;
   margin-bottom: var(--mb-1);
   background-size: contain;
+  animation: slide 10s infinite;
+}
+
+@keyframes slide{
+  25%{
+    background-image: url("../img/Roar.jpg");
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    justify-self: center;
+    background-size: 130%;
+  }
+  50%{
+    background: url("../img/eagle.jpg");
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    justify-self: center;
+    background-size: 150%;
+  }
+  75%{
+    background: url("../img/tiger.jpg");
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    justify-self: center;
+    background-size: cover;
+    background-position: right
+
+  }
+  100%{
+    background: url("../img/tigerRoar.jpg");
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    justify-self: center;
+    background-size: cover;
+  }
 }
 
 .home__img:hover {
@@ -356,6 +394,7 @@ img{
   border-color: Red;
   box-shadow: 0 5px 15px Red;
   cursor: not-allowed;
+  z-index: 6;
 }
 
 .home__title{
