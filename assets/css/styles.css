@@ -335,6 +335,20 @@ img{
   text-align: center;
 }
 
+.home__img:hover {
+  background-image: url("../img/mebw.jpg");
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  justify-self: center;
+  margin-bottom: var(--mb-1);
+  background-size: cover;
+  border-color: #00ff03;
+  box-shadow: 0 5px 15px #00ff03;
+  cursor: not-allowed;
+  animation: picHover infinite;
+}
+
 .home__img{
   background-image: url("../img/Lion.jpg");
   width: 120px;
@@ -343,10 +357,27 @@ img{
   justify-self: center;
   margin-bottom: var(--mb-1);
   background-size: contain;
-  animation: slide 10s infinite;
+  animation: slide 20s infinite;
+}
+
+@picHover{
+
 }
 
 @keyframes slide{
+  .home__img:hover {
+    background-image: url("../img/mebw.jpg");
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    justify-self: center;
+    margin-bottom: var(--mb-1);
+    background-size: cover;
+    border-color: Red;
+    box-shadow: 0 5px 15px Red;
+    cursor: not-allowed;
+    z-index: 6;
+  }
   25%{
     background-image: url("../img/Roar.jpg");
     width: 120px;
@@ -381,20 +412,6 @@ img{
     justify-self: center;
     background-size: cover;
   }
-}
-
-.home__img:hover {
-  background-image: url("../img/mebw.jpg");
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  justify-self: center;
-  margin-bottom: var(--mb-1);
-  background-size: cover;
-  border-color: Red;
-  box-shadow: 0 5px 15px Red;
-  cursor: not-allowed;
-  z-index: 6;
 }
 
 .home__title{
