@@ -375,11 +375,11 @@ img{
 .home__profession:hover .home__profession{
   display: none;
   cursor: pointer;
-  font-color: gold;
 }
-
+/*Controls the enlargening and color changing of the experience sections when you hover over them*/
 .experience__data:hover {
-  font-size: var(--h1-font-size);
+  font-size: var(--h3-font-size);
+  color: rgb(246, 140, 0);
 }
 
 .home__profession:hover .home__profession-hidden{
