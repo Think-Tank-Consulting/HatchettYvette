@@ -375,7 +375,7 @@ img{
 .home__profession:hover .home__profession{
   display: none;
   cursor: pointer;
-  font-size: var(--h1-font-size);
+  font-size: 3rem;
 }
 
 .experience__data:hover {
