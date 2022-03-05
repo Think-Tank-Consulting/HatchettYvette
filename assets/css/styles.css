@@ -356,7 +356,7 @@ img{
   border-radius: 50%;
   justify-self: center;
   background-size: cover;
-  background-position:90% 10%;
+  background-position: right;
   animation: slide 20s infinite;
 }
 
@@ -667,7 +667,7 @@ color: var(--title-color);
     margin-bottom: var(--mb-1);
     background-size: cover;
     border-color: #00ff03;
-    box-shadow: 0 5px 15px #00ff03;
+    box-shadow: 0 5px 15px #ffffff, 0 5px 15px #000000;
     cursor: not-allowed;
     animation: picHover infinite;
   }
