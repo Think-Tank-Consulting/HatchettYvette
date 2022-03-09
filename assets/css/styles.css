@@ -185,14 +185,17 @@ body.scale-cv{
   column-gap: 2.5rem;
 }
 
+.resume{
+background-color: var(--container-color);
+background-image: none;
+}
 
 body{
   margin: 0 0 var(--header-height) 0;
   padding: 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-image: url("../img/matrix.gif");
-
+  background-image: url("../img/Matrix.gif");
   background-color: var(--body-color);
   color: var(--text-color);
 }
@@ -274,7 +277,7 @@ img{
     left: 0;
     width: 100%;
     padding: 2rem 1.5rem;
-    background-color: var(--body-color);
+    background-color: var(--text-color);
     box-shadow: 0 1px 4px rgba(0,0,0,.1);
     border-radius: 1rem 1rem 0 0;
     z-index: var(--z-fixed);
@@ -295,6 +298,7 @@ img{
 
 .nav__item{
   text-align: center;
+  background-color: var(--text-color);
 }
 
 .nav__list{
@@ -689,6 +693,14 @@ color: var(--title-color);
     background-size: cover;
     background-position:90% 10%;
     animation: slide 20s infinite;
+  }
+
+  .resume{
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    background-color: var(--container-color);
+    background-image: none;
+    box-shadow: 0 0 8px rgba(13, 12, 12, 0.15);
   }
 
   @picHover{
