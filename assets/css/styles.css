@@ -654,6 +654,9 @@ color: var(--title-color);
   /* For small devices, menu two columns */
 @media screen and (max-width: 600px){
 
+  body{
+    background-image: none;
+  }
 
   .nav__list{
     grid-template-columns: repeat(2, 1fr);
